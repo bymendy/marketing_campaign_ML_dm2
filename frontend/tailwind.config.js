@@ -1,4 +1,4 @@
-export default {
+module.exports = {
   content: ['./index.html', './src/**/*.{js,jsx}'],
   theme: {
     extend: {
@@ -16,5 +16,6 @@ export default {
         sans: ['Inter', 'sans-serif'],
       }
     }
-  }
+  },
+  plugins: []
 }
