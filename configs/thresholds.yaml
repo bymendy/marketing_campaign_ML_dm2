@@ -1,0 +1,5 @@
+# Seuils de décision marketing
+default_threshold: 0.5
+optimized_threshold: null  # sera calculé en partie G
+cost_contact: 10
+revenue_conversion: 100

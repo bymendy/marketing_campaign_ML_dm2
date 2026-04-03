@@ -1,0 +1,6 @@
+[
+  { "id": 1, "label": "Premium Loyaux",   "size": 22, "revenue": 1840, "response_rate": 0.34, "color": "#4f6ef7" },
+  { "id": 2, "label": "Familles Actives", "size": 31, "revenue":  960, "response_rate": 0.18, "color": "#10b981" },
+  { "id": 3, "label": "Occasionnels",     "size": 28, "revenue":  420, "response_rate": 0.09, "color": "#f59e0b" },
+  { "id": 4, "label": "Inactifs",         "size": 19, "revenue":  180, "response_rate": 0.04, "color": "#ef4444" }
+]
