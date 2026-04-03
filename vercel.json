@@ -1,0 +1,6 @@
+{
+  "version": 2,
+  "buildCommand": "cd frontend && npm install --prefer-offline && npx vite build",
+  "outputDirectory": "frontend/dist",
+  "framework": null
+}
