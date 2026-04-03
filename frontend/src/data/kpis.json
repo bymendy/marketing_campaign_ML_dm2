@@ -1,9 +1,11 @@
 {
-  "total_clients": 2240,
-  "response_rate_global": 0.149,
-  "best_model": "Gradient Boosting",
-  "auc_roc": 0.89,
-  "optimal_threshold": 0.38,
-  "expected_roi": 3.2,
-  "clients_to_target": 487
+  "total_clients": 2212,
+  "response_rate_global": 15.1,
+  "best_model": "Logistic Regression",
+  "auc_roc": 0.9109,
+  "optimal_threshold": 0.07,
+  "expected_roi": 298.7,
+  "clients_to_target": 158,
+  "expected_profit": 4720,
+  "expected_conversions": 63
 }

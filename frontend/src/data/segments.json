@@ -1,6 +1,38 @@
 [
-  { "id": 1, "label": "Premium Loyaux",   "size": 22, "revenue": 1840, "response_rate": 0.34, "color": "#4f6ef7" },
-  { "id": 2, "label": "Familles Actives", "size": 31, "revenue":  960, "response_rate": 0.18, "color": "#10b981" },
-  { "id": 3, "label": "Occasionnels",     "size": 28, "revenue":  420, "response_rate": 0.09, "color": "#f59e0b" },
-  { "id": 4, "label": "Inactifs",         "size": 19, "revenue":  180, "response_rate": 0.04, "color": "#ef4444" }
+  {
+    "Segment": "Premium Engages",
+    "Clients": 38,
+    "Repondants": 21,
+    "Score_moyen": 0.489,
+    "Score_max": 0.991,
+    "Taux_reponse": 55.3,
+    "Profit_potentiel": 1720
+  },
+  {
+    "Segment": "Aises Passifs",
+    "Clients": 97,
+    "Repondants": 20,
+    "Score_moyen": 0.14,
+    "Score_max": 0.885,
+    "Taux_reponse": 20.6,
+    "Profit_potentiel": 1030
+  },
+  {
+    "Segment": "Actifs Moyens",
+    "Clients": 103,
+    "Repondants": 14,
+    "Score_moyen": 0.111,
+    "Score_max": 0.79,
+    "Taux_reponse": 13.6,
+    "Profit_potentiel": 370
+  },
+  {
+    "Segment": "Petits Budgets",
+    "Clients": 205,
+    "Repondants": 12,
+    "Score_moyen": 0.067,
+    "Score_max": 0.701,
+    "Taux_reponse": 5.9,
+    "Profit_potentiel": -850
+  }
 ]
