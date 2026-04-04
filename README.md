@@ -1,19 +1,28 @@
-# Marketing Campaign ML — dm2
+# Campaign Intelligence Dashboard
 
-## Objectif
-Système d'aide à la décision marketing basé sur le machine learning.
-Segmentation client + prédiction de réponse + optimisation ROI.
+Dashboard React pour visualiser les résultats du pipeline ML marketing.
 
-## Structure
-- `notebooks/` — analyses par partie (A → H)
-- `src/` — fonctions réutilisables
-- `models/` — modèles entraînés sérialisés
-- `data/` — données brutes et traitées
-- `reports/` — livrables et PDF exécutif
-- `configs/` — paramètres externalisés
+## Stack
+- React 18 + Vite
+- Tailwind CSS
+- Recharts (graphiques)
+- Lucide React (icônes)
+
+## Pages
+- **Overview** — KPIs globaux de la campagne
+- **Segments** — Profils des clusters clients
+- **Scoring** — Distribution des scores de probabilité
+- **Decision** — Seuil optimal et stratégie de ciblage
 
 ## Lancement
 ```bash
-pip install -r requirements.txt
-jupyter lab
+cd frontend
+npm install
+npm run dev
 ```
+
+## Connexion au backend Python
+Les données arrivent via des fichiers JSON exportés depuis les notebooks :
+- `src/data/segments.json` — résultats clustering
+- `src/data/scores.json` — probabilités prédites
+- `src/data/kpis.json` — métriques business
